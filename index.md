@@ -32,7 +32,7 @@
     .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
     .warning, .claim {padding: 10px; margin: 0}
     .warning {margin-top: 10px;}
-    .warning img {width: 20px; background-color: initial; }
+    .warning img {width: 30px; background-color: initial; }
     .cbox, .cbox img {background-color: #E8E8E8;}
     
     @media only screen and (max-width: 768px) {
