@@ -91,6 +91,11 @@
 </style>
 
 <script type="text/javascript">
+$(function () {
+
+    $('.checkbox > input').css('border', 'solid red');
+
+});
 
 </script>
 
@@ -113,7 +118,7 @@ as Much as <span class="Text-Light-Blue"> $101,000 in Profit</span>.”
 </div>
 
 <div class="checkbox-container align-center">
-<p class="checkbox"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p class="checkbox"><input type="checkbox" name="sync" ></p>
 <p class="checkbox-text">
     I would like to receive a free newsletter
 </p>
@@ -190,7 +195,7 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </p>
 
 <div class="align-center" style="padding-top: 0px; margin-top: 0;">
-    <div class="checkbox" style="display: inline-block"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></div>
+    <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
  </div>
 
