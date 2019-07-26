@@ -2,7 +2,11 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 <style type="text/css">
-     body {background-color: #FFF}
+     body {
+        background-color: #FFF;
+        font-family: arial, sans-serif;
+     }
+
     .Text-Light-Blue {color: #71a1be; }
     .Text-Medium-Blue { color: #005282; }
     .Text-Dark-Blue { color: #05263a; }
@@ -98,13 +102,13 @@ Jim Rickards’ Presents…</p>
  <p class="align-center">
      <hr class="best-selling">
 </p>
-<div class="col-12 align-center summary ">
+<div class="col-12 align-center summary Text-bold">
 <p>“In just days a Never-Before- Seen Gold Anomaly 
 Will Create a Totally New Class of Penny Gold Stocks... <br>
 I’ve Enlisted One of the World’s Top Geologists 
 to Help Me Reveal... Live on Camera… What This 
-Coming <span class="Text-Light-Blue Text-bold">Gold Mega-Catalyst</span> Is And How You Could Make 
-as Much as <span class="Text-Light-Blue Text-bold"> $101,000 in Profit</span>.”
+Coming <span class="Text-Light-Blue">Gold Mega-Catalyst</span> Is And How You Could Make 
+as Much as <span class="Text-Light-Blue"> $101,000 in Profit</span>.”
 </p>
 </div>
 
@@ -116,7 +120,7 @@ as Much as <span class="Text-Light-Blue Text-bold"> $101,000 in Profit</span>.�
 </div>
 
 <div class="align-center">
-<p class="Background-Medium-Blue Text-white Register marginLR20">
+<p class="Background-Medium-Blue Text-white Register marginLR20 Text-bold">
 Register for this FREE <br> 
 live Webinar Here!
 </p>
