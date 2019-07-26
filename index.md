@@ -2,6 +2,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 <style type="text/css">
+     body {background-color: #FFF}
     .Text-Light-Blue {color: #71a1be; }
     .Text-Medium-Blue { color: #005282; }
     .Text-Dark-Blue { color: #05263a; }
@@ -16,7 +17,8 @@
     .summary {max-width: 60%; margin: 0 auto; font-size: 1.5em; }
     .checkbox-container p {display: inline-block; }
     .checkbox {width: 20px;}
-    .checkbox-text {}
+    .Text-bold {font-weight: bold;}
+    .Text-white {color: #FFF;}
 
 </style>
 
@@ -37,8 +39,8 @@ Jim Rickards’ Presents…</p>
 Will Create a Totally New Class of Penny Gold Stocks... <br>
 I’ve Enlisted One of the World’s Top Geologists 
 to Help Me Reveal... Live on Camera… What This 
-Coming <span class="Text-Dark-Blue">Gold Mega-Catalyst</span> Is And How You Could Make 
-as Much as <span class="Text-Dark-Blue"> $101,000 in Profit</span>.”
+Coming <span class="Text-Dark-Blue Text-bold">Gold Mega-Catalyst</span> Is And How You Could Make 
+as Much as <span class="Text-Dark-Blue Text-bold"> $101,000 in Profit</span>.”
 </p>
 </div>
 
@@ -50,7 +52,7 @@ I would like to receive a free newsletter
 </div>
 
 <div class="align-center">
-<p class="Background-Dark-Blue">
+<p class="Background-Dark-Blue Text-white">
 Register for this FREE <br> 
 live Webinar Here!
 </p>
