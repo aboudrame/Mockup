@@ -119,7 +119,7 @@ $(function () {
             var customDate = new Date();
             var WebinarDate = setDate(customDate.getDate() + 5);
 
-            setTimer (function () {
+            setInterval (function () {
                 var xnow = new Date();
 
                     $('.countdown').text(xnow.getSeconds());
