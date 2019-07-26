@@ -178,7 +178,7 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </div>
 </div>
 
-<p class="claim Background-Dark-Blue align-center Text-white">
+<p class="claim Background-Dark-Blue align-center Text-white" style="margin-bottom: 0;">
     Claim your spot below before it's too late!
 </p>
 <p style="padding: 0; margin: 0 auto; text-align: center; max-width: 150px;">
