@@ -133,11 +133,15 @@ $(function () {
                 var msLoadDateTimeDesc = LoadDateTimeDesc.getTime();
 
                 var msDistance =  msWebinarDate - msLoadDateTimeDesc ;
+                var TimeLeft = new Date(msDistance);
+
 
                     $('.countdown').text(
                         'Loaded= ' + Loaded + '\n' +
                         'msDistance= ' + msDistance + '\n' +
-                        'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + '/' + WebinarDate.getDate()
+                        'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + 1 + '/' + WebinarDate.getDate() + '\n' +
+                        'TimeLeft= ' + TimeLeft
+
                     );
 
                     }, 1000);
