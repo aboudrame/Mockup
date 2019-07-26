@@ -93,7 +93,18 @@
 <script type="text/javascript">
 $(function () {
 
-    $('.checkbox > input').css('border', 'solid red');
+    $('.checkbox > input').off('click').on('click', function () {
+        if ( $(this).attr('checked') === 'checked' ) {
+            $('.checkbox > input')
+                    .removeAttr('checked')
+                    .prop('checked', false );
+        }
+        else {
+            $('.checkbox > input')
+                    .attr('checked', 'checked')
+                    .prop('checked', true);
+        }
+    });
 
 });
 
