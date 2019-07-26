@@ -12,7 +12,7 @@
 
     .Pink { color: #f58c99;}
     .align-center {text-align: center;   }
-    .best-selling {max-width: 50% ; background-color: #71a1be; } 
+    .best-selling {max-width: 50% ; background-color: #71a1be !important; margin: auto !important;} 
 </style>
 
 <script type="text/javascript">
