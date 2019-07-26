@@ -25,10 +25,10 @@
     .paddingTop25 {padding-top: 25px;}
     .calendar img {width: 100%; max-width: 80px}
     .padding25-40-40-40 {padding: 25px 40px 40px 40px }
-    .profile-container { display: flex; }
-    .profile-container div {width: 50%;}
+    .profile-container { display: flex; margin-top: 20px;}
+    .profile-container div {width: 50%; padding-top: 20px;}
     .Open-questions {background-color: #E8E8E8; color: #000; padding: 20px;}
-    .Open-questions .cbox {width: 50px; display: inline-block;}
+    .Open-questions .cbox {width: 35px; display: inline-block;}
     .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
 
 </style>
@@ -74,17 +74,18 @@ live Webinar Here!
 <img src="RGS_Hotlist_0617_Calendar.png" />
 <div >May 29 <br> 5 PM EDT</div>
 </div>
-<div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue">
+<div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white">
 TIME LEFT UNTIL THE WEBINAR STARTS...
 </div>
 </div>
 
-<div class="profile-container">
-<div class="profile" > 
-
-Presented by best-selling author and gold expert… <br>
-JAMES G. RICKARDS
+<div class="profile-container Background-Dark-Blue">
+<div class="profile align-center" >
+<p style="text-align: center; max-width: 200px; margin: auto;"><img src="RGS_Hotlist_0617_JimRickards.png"/></p>
+<span class="Text-white">Presented by best-selling author and gold expert… </span><br> <br>
+<span class="Text-white"> JAMES G. RICKARDS </span>
 </div>
+
 <div class="Open-questions">
 <p class="align-center Text-bold">I’m going to show you…</p>
 
