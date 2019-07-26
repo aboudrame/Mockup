@@ -32,16 +32,17 @@
     .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
     .warning, .claim {padding: 10px; margin: 0}
     .warning {margin-top: 10px;}
-    .warning img {width: 20px; background-color: initial;
+    .warning img {width: 20px; background-color: initial; }
     
     @media only screen and (max-width: 768px) {
      .calendar-container {
-         display: block !important;                 
+         display: block;                 
         }
-    
      .calendar-container > div {
-         display: block !important;
+         padding-bottom: 20px;
+         margin: 0;
      }
+
     }
     
     
