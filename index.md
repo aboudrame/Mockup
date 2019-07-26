@@ -32,7 +32,16 @@
     .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
     .warning, .claim {padding: 10px; margin: 0}
     .warning {margin-top: 10px;}
-    .warning img {width: 20px;}
+    .warning img {width: 20px; background-color: initial;
+    
+    @media only screen and (max-width: 768px) {
+     .calendar-container {
+         display: block;                 
+     }   
+    }
+    
+    
+    }
 
 </style>
 
@@ -86,7 +95,7 @@ TIME LEFT UNTIL THE WEBINAR STARTS...
 <div class="profile align-center" >
 <p style="text-align: center; max-width: 200px; margin: auto;"><img src="RGS_Hotlist_0617_JimRickards.png"/></p>
 <span class="Text-white">Presented by best-selling author and gold expert… </span><br> <br>
-<span class="Text-white"> JAMES G. RICKARDS </span>
+<span class="Text-white Text-bold"> JAMES G. RICKARDS </span>
 </div>
 
 <div class="Open-questions">
@@ -123,21 +132,21 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 <div>
 <img src="RGS_Hotlist_0617_Warning.png" />
 </div>
-<div>
+<div style="padding: 0 25px">
 WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </div>
 </div>
 
-<p class="claim Background-Dark-Blue align-center">
+<p class="claim Background-Dark-Blue align-center Text-white">
 Claim your spot below before it's too late!
 </p>
 
 <div class="align-center" style="padding-top: 30px;">
-    <div class="checkbox" style="border: solid; display: inline-block"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></div>
-    <div style="border: solid; display: inline-block;">I would like to receive a free newsletter</div>
+    <div class="checkbox" style="display: inline-block"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></div>
+    <div style="display: inline-block;">I would like to receive a free newsletter</div>
  </div>
 
-<div class="align-center Background-Medium-Blue">
+<div class="align-center Background-Medium-Blue Text-white">
 YES! Reserve My Spot Now! >>
 </div>
 </div>
