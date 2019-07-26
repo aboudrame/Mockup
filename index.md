@@ -120,10 +120,10 @@ $(function () {
             //var WebinarDate = setDate(LoadDateTime.getDate() + 5);
 
             setInterval (function () {
-                var xnow = new Date();
-                distance = LoadDateTime.getTime() - xnow.getTime();
+               // var xnow = new Date();
+               // distance = LoadDateTime.getTime() - xnow.getTime();
 
-                    $('.countdown').text(distance);
+                    $('.countdown').text("this is a test");
             }, 1000);
 
 
