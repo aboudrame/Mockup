@@ -92,19 +92,30 @@
 
 <script type="text/javascript">
 $(function () {
+    var mockup = {
+        init: function () {
+            mockup.sync();
+        },
 
-    $('.checkbox > input').off('click').on('click', function () {
-        if ( $(this).attr('checked') === 'checked' ) {
-            $('.checkbox > input')
-                    .removeAttr('checked')
-                    .prop('checked', false );
+        sync: function () {
+
+            $('.checkbox > input').off('click').on('click', function () {
+                if ( $(this).attr('checked') === 'checked' ) {
+                    $('.checkbox > input')
+                            .removeAttr('checked')
+                            .prop('checked', false );
+                }
+                else {
+                    $('.checkbox > input')
+                            .attr('checked', 'checked')
+                            .prop('checked', true);
+                }
+            });
+
         }
-        else {
-            $('.checkbox > input')
-                    .attr('checked', 'checked')
-                    .prop('checked', true);
-        }
-    });
+    };
+
+    mockup.init();
 
 });
 
