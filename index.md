@@ -33,6 +33,7 @@
     .warning, .claim {padding: 10px; margin: 0}
     .warning {margin-top: 10px;}
     .warning img {width: 20px; background-color: initial; }
+    .cbox, .cbox img {background-color: #E8E8E8;}
     
     @media only screen and (max-width: 768px) {
      .calendar-container {
@@ -71,6 +72,13 @@
         max-width: initial;
     }
 
+    .profile {
+        padding-bottom: 20px;
+    }
+
+    .Open-questions > .cbox {
+        vertical-align: top;
+    }
     }
     
     
@@ -127,7 +135,7 @@ live Webinar Here!
 <div class="profile-container Background-Dark-Blue">
 <div class="profile align-center" >
 <p style="text-align: center; max-width: 200px; margin: auto;"><img src="RGS_Hotlist_0617_JimRickards.png"/></p>
-<span class="Text-white">Presented by best-selling author and gold expert… </span><br> <br>
+<span class="Text-white">Presented by best-selling author and gold expert… </span><br>
 <span class="Text-white Text-bold"> JAMES G. RICKARDS </span>
 </div>
 
