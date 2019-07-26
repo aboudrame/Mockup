@@ -11,7 +11,7 @@
     .Background-Medium-Blue {Background-color: #005282; max-width: 60%; margin: auto; padding: 10px;  border-radius: 10px; margin: 20px auto;}
     .Background-Dark-Blue {background-color: #05263a; }
 
-    .Pink { color: #f58c99;}
+    .Background-Pink { background-color: #f58c99;}
     .align-center {text-align: center;   }
     .best-selling {max-width: 75% ; background-color: #71a1be !important; margin: auto !important; } 
     .summary {max-width: 80%; margin: 0 auto; font-size: 1.5em; }
@@ -30,6 +30,9 @@
     .Open-questions {background-color: #E8E8E8; color: #000; padding: 20px;}
     .Open-questions .cbox {width: 35px; display: inline-block;}
     .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
+    .warning, .claim {padding: 10px; margin: 0}
+    .warning {margin-top: 10px;}
+    .warning img {width: 20px;}
 
 </style>
 
@@ -116,13 +119,25 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 </p>
 </div> <!-- Open-questions -->
 </div> <!-- profile-container-->
- 
+<div class="Background-Pink warning align-center" style="display: flex; justify-content: center;" > 
+<div>
+<img src="RGS_Hotlist_0617_Warning.png" />
+</div>
+<div>
 WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
+</div>
+</div>
 
+<p class="claim Background-Dark-Blue align-center">
 Claim your spot below before it's too late!
+</p>
 
- I would like to receive a free newsletter
- 
+<div class="align-center" style="padding-top: 30px;">
+    <div class="checkbox" style="border: solid; display: inline-block"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></div>
+    <div style="border: solid; display: inline-block;">I would like to receive a free newsletter</div>
+ </div>
+
+<div class="align-center Background-Medium-Blue">
 YES! Reserve My Spot Now! >>
-
+</div>
 </div>
