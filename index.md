@@ -117,13 +117,13 @@ $(function () {
 
         Webinarcountdown: function () {
             var LoadDateTime = new Date();
-            //var WebinarDate = setDate(LoadDateTime.getDate() + 5);
+            var WebinarDate = setDate(LoadDateTime.getDate() + 5);
 
             setInterval (function () {
-               // var xnow = new Date();
-               // distance = LoadDateTime.getTime() - xnow.getTime();
+                var xnow = new Date();
+                distance = LoadDateTime.getTime() - xnow.getTime();
 
-                    $('.countdown').text("this is a test");
+                    $('.countdown').text(distance + "\n" + WebinarDate);
             }, 1000);
 
 
