@@ -39,8 +39,8 @@ Jim Rickards’ Presents…</p>
 Will Create a Totally New Class of Penny Gold Stocks... <br>
 I’ve Enlisted One of the World’s Top Geologists 
 to Help Me Reveal... Live on Camera… What This 
-Coming <span class="Text-Dark-Blue Text-bold">Gold Mega-Catalyst</span> Is And How You Could Make 
-as Much as <span class="Text-Dark-Blue Text-bold"> $101,000 in Profit</span>.”
+Coming <span class="Text-Light-Blue Text-bold">Gold Mega-Catalyst</span> Is And How You Could Make 
+as Much as <span class="Text-Light-Blue Text-bold"> $101,000 in Profit</span>.”
 </p>
 </div>
 
@@ -60,7 +60,7 @@ live Webinar Here!
 
 
 <div class="col-md-4">
-h
+<img scr="/Mockup/RGS_Hotlist_0617_CheckmarkBox.png" />
 </div>
 <div class="col-md-8">
 TIME LEFT UNTIL THE WEBINAR STARTS...
