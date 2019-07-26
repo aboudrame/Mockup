@@ -179,12 +179,15 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </div>
 
 <p class="claim Background-Dark-Blue align-center Text-white">
-Claim your spot below before it's too late!
+    Claim your spot below before it's too late!
+</p>
+<p style="padding: 0; margin: 0 auto; text-align: center; max-width: 150px;">
+    <img src="Triangle.gif" />
 </p>
 
-<div class="align-center" style="padding-top: 30px;">
+<div class="align-center" style="padding-top: 0px; margin-top: 0;">
     <div class="checkbox" style="display: inline-block"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></div>
-    <div style="display: inline-block;">I would like to receive a free newsletter</div>
+    <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
  </div>
 
 <div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20">
