@@ -124,11 +124,21 @@ $(function () {
                 FiveDayLater
             );
 
-            setInterval (function () {
-                var LoadDateTime = new Date();
-                //distance = LoadDateTime.getTime() - now.getTime();
+            var Loaded = LoadDateTime.getMonth + '/' + LoadDateTime.getDate() + '/' + LoadDateTime.getFullYear();
 
-                    $('.countdown').text(WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + '/' + WebinarDate.getDate());
+            var msWebinarDate = new Date(WebinarDate);
+            
+            setInterval (function () {
+                var LoadDateTimeDesc = new Date();
+                var msLoadDateTimeDesc = LoadDateTime.getTime();
+
+                var msDistance =  msWebinarDate - msLoadDateTimeDesc ;
+
+                    $('.countdown').text(
+                        'Loaded= ' + Loaded + '\n' +
+                        'msDistance= ' + msDistance + '\n' +
+                        'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + '/' + WebinarDate.getDate()
+                    );
 
                     }, 1000);
 
