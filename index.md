@@ -13,6 +13,7 @@
     .Pink { color: #f58c99;}
     .align-center {text-align: center;   }
     .best-selling {max-width: 50% ; background-color: #71a1be !important; margin: auto !important;} 
+    .summary {max-width: 60%; margin: 0 auto;  }
 </style>
 
 <script type="text/javascript">
@@ -27,7 +28,7 @@ Jim Rickards’ Presents…</p>
  <p class="align-center">
      <hr class="best-selling">
 </p>
-<div class="col-12 align-center">
+<div class="col-12 align-center summary ">
 <p>“In just days a Never-Before- Seen Gold Anomaly 
 Will Create a Totally New Class of Penny Gold Stocks...
 I’ve Enlisted One of the World’s Top Geologists 
