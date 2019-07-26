@@ -13,7 +13,11 @@
     .Pink { color: #f58c99;}
     .align-center {text-align: center;   }
     .best-selling {max-width: 50% ; background-color: #71a1be !important; margin: auto !important;} 
-    .summary {max-width: 60%; margin: 0 auto;  }
+    .summary {max-width: 60%; margin: 0 auto; font-size: 1.5em; }
+    .checkbox-container p {display: inline-block; }
+    .checkbox {width: 20px;}
+    .checkbox-text {}
+
 </style>
 
 <script type="text/javascript">
@@ -30,16 +34,22 @@ Jim Rickards’ Presents…</p>
 </p>
 <div class="col-12 align-center summary ">
 <p>“In just days a Never-Before- Seen Gold Anomaly 
-Will Create a Totally New Class of Penny Gold Stocks...
+Will Create a Totally New Class of Penny Gold Stocks... <br>
 I’ve Enlisted One of the World’s Top Geologists 
 to Help Me Reveal... Live on Camera… What This 
-Coming Gold Mega-Catalyst Is And How You Could Make 
-as Much as $101,000 in Profit.”
+Coming <span class="Text-Dark-Blue">Gold Mega-Catalyst</span> Is And How You Could Make 
+as Much as <span class="Text-Dark-Blue"> $101,000 in Profit</span>.”
 </p>
-<p>
+</div>
+
+<div class="checkbox-container align-center">
+<p class="checkbox"></p>
+<p class="checkbox-text">
 I would like to receive a free newsletter
 </p>
+</div>
 
+<div class="align-center">
 <p class="Background-Dark-Blue">
 Register for this FREE <br> 
 live Webinar Here!
