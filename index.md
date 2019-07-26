@@ -19,13 +19,14 @@
 
 </script>
 
-<div class="row1">
+<div class="row">
 <div class="col-12">
 <p class="align-center">Best-Selling Author and Gold Expert <br>
 Jim Rickards’ Presents…</p>
 </div>
- 
- <hr class="best-selling">
+ <p class="align-center">
+     <hr class="best-selling">
+</p>
 <div class="col-12 align-center">
 <p>“In just days a Never-Before- Seen Gold Anomaly 
 Will Create a Totally New Class of Penny Gold Stocks...
