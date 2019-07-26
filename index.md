@@ -95,6 +95,7 @@ $(function () {
     var mockup = {
         init: function () {
             mockup.sync();
+            mockup.countdown();
         },
 
         sync: function () {
@@ -111,6 +112,19 @@ $(function () {
                             .prop('checked', true);
                 }
             });
+
+        },
+
+        countdown: function () {
+            var customDate = new Date();
+            var WebinarDate = setDate(customDate.getDate() + 5);
+
+            setTimer (function () {
+                var now = new Date();
+
+                    $('.countdown').text(now);
+            }, 1000)
+
 
         }
     };
@@ -159,7 +173,8 @@ live Webinar Here!
         <div class="Text-white"> <span class="Text-bold">May 29 </span><br> 5 PM EDT</div>
     </div>
     <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
-        TIME LEFT UNTIL THE WEBINAR STARTS...
+        TIME LEFT UNTIL THE WEBINAR STARTS... <br>
+        <span class="countdown"> </span>
     </div>
 </div>
 
