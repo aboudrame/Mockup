@@ -124,13 +124,13 @@ $(function () {
                 FiveDayLater
             );
 
-            var Loaded = LoadDateTime.getMonth + '/' + LoadDateTime.getDate() + '/' + LoadDateTime.getFullYear();
+            var Loaded = LoadDateTime.getMonth() + '/' + LoadDateTime.getDate() + '/' + LoadDateTime.getFullYear();
 
             var msWebinarDate = new Date(WebinarDate);
             
             setInterval (function () {
                 var LoadDateTimeDesc = new Date();
-                var msLoadDateTimeDesc = LoadDateTime.getTime();
+                var msLoadDateTimeDesc = LoadDateTimeDesc.getTime();
 
                 var msDistance =  msWebinarDate - msLoadDateTimeDesc ;
 
