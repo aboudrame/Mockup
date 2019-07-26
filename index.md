@@ -117,13 +117,19 @@ $(function () {
 
         Webinarcountdown: function () {
             var LoadDateTime = new Date();
-          //  var WebinarDate = setDate(LoadDateTime.getDate() + 5);
+            var FiveDayLater = LoadDateTime.getDate() + 5;
+            var WebinarDate = new Date(
+                LoadDateTime.getFullYear(),
+                LoadDateTime.getMonth(),
+                FiveDayLater
+            );
 
             setInterval (function () {
-                var xnow = new Date();
-                distance = LoadDateTime.getTime() - xnow.getTime();
+                var LoadDateTime = new Date();
+                //distance = LoadDateTime.getTime() - now.getTime();
 
-                    $('.countdown').text(distance + "\n" + xnow.getDate())
+                    $('.countdown').text(WebinarDate.getFullYear + '/ ' + WebinarDate.getMonth() + '/' + WebinarDate.getDate());
+
                     }, 1000);
 
 
