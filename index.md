@@ -43,6 +43,34 @@
          margin: 0;
      }
 
+     .paddingLR20 {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+     }
+
+    .marginLR20 {
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+     .Register {
+        max-width: initial;
+     }
+
+    .profile-container {
+        display: block;
+    }
+
+    .profile-container > div {
+        margin: 0 auto;
+        width: initial;
+    }
+
+    .Yes-reserve-spot {
+        max-width: initial;
+    }
+
     }
     
     
@@ -80,7 +108,7 @@ as Much as <span class="Text-Light-Blue Text-bold"> $101,000 in Profit</span>.â€
 </div>
 
 <div class="align-center">
-<p class="Background-Medium-Blue Text-white">
+<p class="Background-Medium-Blue Text-white Register marginLR20">
 Register for this FREE <br> 
 live Webinar Here!
 </p>
@@ -89,9 +117,9 @@ live Webinar Here!
 <div class="calendar-container">
     <div class="col-md-4 calendar Background-Light-Blue align-center padding25-40-40-40">
         <img src="RGS_Hotlist_0617_Calendar.png" />
-        <div >May 29 <br> 5 PM EDT</div>
+        <div class="Text-white"> <span class="Text-bold">May 29 </span><br> 5 PM EDT</div>
     </div>
-    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white">
+    <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
         TIME LEFT UNTIL THE WEBINAR STARTS...
     </div>
 </div>
@@ -151,7 +179,7 @@ Claim your spot below before it's too late!
     <div style="display: inline-block;">I would like to receive a free newsletter</div>
  </div>
 
-<div class="align-center Background-Medium-Blue Text-white">
+<div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20">
 YES! Reserve My Spot Now! >>
 </div>
 </div>
