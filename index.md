@@ -128,7 +128,7 @@ $(function () {
                 var LoadDateTime = new Date();
                 //distance = LoadDateTime.getTime() - now.getTime();
 
-                    $('.countdown').text(WebinarDate.getFullYear() + '/ ' + WebinarDate.getMonth() + '/' + WebinarDate.getDate());
+                    $('.countdown').text(WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + '/' + WebinarDate.getDate());
 
                     }, 1000);
 
