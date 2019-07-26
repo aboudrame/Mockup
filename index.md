@@ -8,17 +8,28 @@
     .Text-Dark-Blue { color: #05263a; }
 
     .Background-Light-Blue {background-color: #71a1be; }
-    .Background-Medium-Blue {Background-color: #005282; }
-    .Background-Dark-Blue {background-color: #05263a; border-radius: 10px; max-width: 45%; margin: auto; padding: 10px; }
+    .Background-Medium-Blue {Background-color: #005282; max-width: 60%; margin: auto; padding: 10px;  border-radius: 10px; margin: 20px auto;}
+    .Background-Dark-Blue {background-color: #05263a; }
 
     .Pink { color: #f58c99;}
     .align-center {text-align: center;   }
-    .best-selling {max-width: 50% ; background-color: #71a1be !important; margin: auto !important;} 
-    .summary {max-width: 60%; margin: 0 auto; font-size: 1.5em; }
+    .best-selling {max-width: 75% ; background-color: #71a1be !important; margin: auto !important; } 
+    .summary {max-width: 80%; margin: 0 auto; font-size: 1.5em; }
     .checkbox-container p {display: inline-block; }
     .checkbox {width: 20px;}
     .Text-bold {font-weight: bold;}
     .Text-white {color: #FFF;}
+    .calendar-container {display: flex;}
+    .calendar {margin-right: 10px}
+    .calendar-text {width: 100%;}
+    .paddingTop25 {padding-top: 25px;}
+    .calendar img {width: 100%; max-width: 80px}
+    .padding25-40-40-40 {padding: 25px 40px 40px 40px }
+    .profile-container { display: flex; }
+    .profile-container div {width: 50%;}
+    .Open-questions {background-color: #E8E8E8; color: #000; padding: 20px;}
+    .Open-questions .cbox {width: 50px; display: inline-block;}
+    .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
 
 </style>
 
@@ -45,42 +56,65 @@ as Much as <span class="Text-Light-Blue Text-bold"> $101,000 in Profit</span>.�
 </div>
 
 <div class="checkbox-container align-center">
-<p class="checkbox"></p>
+<p class="checkbox"><img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
 <p class="checkbox-text">
-I would like to receive a free newsletter
+    I would like to receive a free newsletter
 </p>
 </div>
 
 <div class="align-center">
-<p class="Background-Dark-Blue Text-white">
+<p class="Background-Medium-Blue Text-white">
 Register for this FREE <br> 
 live Webinar Here!
 </p>
 </div>
 
-
-<div class="col-md-4">
-<img scr="/Mockup/RGS_Hotlist_0617_CheckmarkBox.png" />
+<div class="calendar-container">
+<div class="col-md-4 calendar Background-Light-Blue align-center padding25-40-40-40">
+<img src="RGS_Hotlist_0617_Calendar.png" />
+<div >May 29 <br> 5 PM EDT</div>
 </div>
-<div class="col-md-8">
+<div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue">
 TIME LEFT UNTIL THE WEBINAR STARTS...
 </div>
+</div>
 
+<div class="profile-container">
+<div class="profile" > 
 
-Presented by best-selling author and gold expert…
+Presented by best-selling author and gold expert… <br>
 JAMES G. RICKARDS
+</div>
+<div class="Open-questions">
+<p class="align-center Text-bold">I’m going to show you…</p>
 
-I’m going to show you…
 
+<p class="cbox"> <img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p class="questions" >
 How a class of “off-limit” gold stocks could become fair game and shoot up in price…
+</p>
 
+<p class="cbox"> <img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p  class="questions">
 Why just as many gold stocks could be CRUSHED. But this isn’t a bad thing. In fact, it’s going to open up a unique opportunity not seen in years…
+</p>
 
+<p class="cbox"> <img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p  class="questions">
 How it could compound an announcement from the Federal Reserve next week that could send physical gold prices much higher…
+</p>
 
+<p class="cbox"> <img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p  class="questions">
 Why you’ll hear predictions of doom for the gold market (it’s important you understand the truth and know the real profit opportunity that’s being set up)...
+</p>
 
+<p class="cbox"> <img src="RGS_Hotlist_0617_CheckmarkBox.png" /></p>
+<p  class="questions">
 Why we may see confirmation that gold will make a run at $2,000 sooner than anyone thinks...
+</p>
+</div> <!-- Open-questions -->
+</div> <!-- profile-container-->
  
 WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 
