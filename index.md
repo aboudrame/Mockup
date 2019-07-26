@@ -120,9 +120,9 @@ $(function () {
             var WebinarDate = setDate(customDate.getDate() + 5);
 
             setTimer (function () {
-                var now = new Date();
+                var xnow = new Date();
 
-                    $('.countdown').text(now);
+                    $('.countdown').text(xnow.getSeconds());
             }, 1000)
 
 
