@@ -173,7 +173,7 @@ Why we may see confirmation that gold will make a run at $2,000 sooner than anyo
 <div>
 <img src="RGS_Hotlist_0617_Warning.png" />
 </div>
-<div style="padding: 0 25px;" class="Text-white">
+<div style="padding: 5px 25px;" class="Text-white">
 WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
 </div>
 </div>
