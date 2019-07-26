@@ -95,7 +95,7 @@ $(function () {
     var mockup = {
         init: function () {
             mockup.sync();
-            mockup.countdown();
+            mockup.Webinarcountdown();
         },
 
         sync: function () {
@@ -115,14 +115,15 @@ $(function () {
 
         },
 
-        countdown: function () {
-            var customDate = new Date();
-            var WebinarDate = setDate(customDate.getDate() + 5);
+        Webinarcountdown: function () {
+            var LoadDateTime = new Date();
+            var WebinarDate = setDate(LoadDateTime.getDate() + 5);
 
             setInterval (function () {
                 var xnow = new Date();
+                distance = WebinarDate - xnow;
 
-                    $('.countdown').text(xnow.getSeconds());
+                    $('.countdown').text(distance);
             }, 1000)
 
 
