@@ -121,10 +121,10 @@ $(function () {
 
             setInterval (function () {
                 var xnow = new Date();
-                distance = WebinarDate - xnow;
+                distance = WebinarDate.getTime() - xnow.getTime();
 
                     $('.countdown').text(distance);
-            }, 1000)
+            }, 1000);
 
 
         }
