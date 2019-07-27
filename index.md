@@ -117,17 +117,16 @@ $(function () {
 
         Webinarcountdown: function () {
             var LoadDateTime = new Date();
-            var FiveDayLater = LoadDateTime.getDate() + 5;
-            var WebinarDate = new Date(
+            var FiveDayLater = LoadDateTime.getDate() + 5; //The fift day ahead
+            var WebinarDate = new Date(        //define new date object on the webinar day
                 LoadDateTime.getFullYear(),
                 LoadDateTime.getMonth(),
                 FiveDayLater
             );
 
-            var Loaded = LoadDateTime.getMonth() + '/' + LoadDateTime.getDate() + '/' + LoadDateTime.getFullYear();
-
             var msWebinarDate = new Date(WebinarDate);
             
+            //Refresh the current time every second and extract days, hours, minutes and seconds
             setInterval (function () {
                 var LoadDateTimeDesc = new Date();
                 var msLoadDateTimeDesc = LoadDateTimeDesc.getTime();
@@ -138,17 +137,7 @@ $(function () {
                 var hours = Math.floor((msDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 var days = Math.floor(msDistance / (1000 * 60 * 60 * 24)); 
 
-                var TimeLeft = days + ' day(s)' + hours + ' hour(s)' + minutes + ' minute(s)' + seconds + ' second(s)'; 
-                
-               
-                    // $('.countdown').text(
-                    //     'Loaded= ' + Loaded + '\n' +
-                    //     'msDistance= ' + msDistance + '\n' +
-                    //     'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + 1 + '/' + WebinarDate.getDate() + '\n' +
-                    //     'TimeLeft= ' + TimeLeft
-
-                    // );
-
+                //set the value for display
                     $('.days').text(days);
                     $('.hours').text(hours);
                     $('.minutes').text(minutes);
@@ -156,7 +145,19 @@ $(function () {
 
                     }, 1000);
 
+        },
 
+        bluebtn: function () {
+            $('.blue-button').off('click').on('click', function () {
+               var el = $(this).prev('div').find($('input'));
+
+               if ( $(el).attr('checked') ) {
+                   alert('checked');
+               }
+               else {
+                   alert('not checked');
+               }
+            })
         }
     };
 
@@ -184,18 +185,14 @@ as Much as <span class="Text-Light-Blue"> $101,000 in Profit</span>.”
 </p>
 </div>
 
-<div class="checkbox-container align-center">
-<p class="checkbox"><input type="checkbox" name="sync" ></p>
-<p class="checkbox-text">
-    I would like to receive a free newsletter
-</p>
+<div class="align-center" style="padding-top: 0px; margin-top: 0;">
+    <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
+    <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
 </div>
 
-<div class="align-center">
-<p class="Background-Medium-Blue Text-white Register marginLR20 Text-bold">
+<div class="align-center Background-Medium-Blue Text-white Register marginLR20 Text-bold blue-button">
 Register for this FREE <br> 
 live Webinar Here!
-</p>
 </div>
 
 <div class="calendar-container">
@@ -275,7 +272,7 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
  </div>
 
-<div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20">
+<div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20 blue-button">
 YES! Reserve My Spot Now! >>
 </div>
 </div>
