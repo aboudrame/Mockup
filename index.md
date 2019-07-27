@@ -165,9 +165,9 @@ $(function () {
                        method: "GET",
                        dataType: "json",
                        success: function (result) {
-                           for (var key in result) {
+                           $.each(result, function (key, value) {
                               // for (key2 in result[key]) {
-                           $(".custom_ajax").html("Test= " + result[key].submitok);
+                           $(".custom_ajax").append("Test= " + key + ' = ' + value);
                           //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                               // }
                            }
