@@ -168,11 +168,10 @@ $(function () {
                            $.each(result, function (key, value) {
 
                                         if (key == "body") {
-                                            for (i in value) {
-                                                alert(i + ' = ' + value);
+                                                alert(value.submitok);
                                                  //$(".custom_ajax").append(i.submitok);
-                                            }
-                                        }
+                                        };
+                    
                                        
 
                                         //$(".custom_ajax").html("Congratulations! Your spot is reserved");
