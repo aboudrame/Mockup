@@ -165,17 +165,20 @@ $(function () {
                        method: "GET",
                        dataType: "json",
                        success: function (result) {
-                           $.each(result, function (key, value) {
+                            var d = JSON.parse(result);
+                            alert (d.body.submitok);
 
-                                        if (key == "body") {
-                                                alert(value["submitok"]);
-                                                 //$(".custom_ajax").append(i.submitok);
-                                        };
+                        //    $.each(result, function (key, value) {
+
+                        //                 if (key == "body") {
+                        //                         alert(value["submitok"]);
+                        //                          //$(".custom_ajax").append(i.submitok);
+                        //                 };
                     
                                        
 
-                                        //$(".custom_ajax").html("Congratulations! Your spot is reserved");
-                           });
+                        //                 //$(".custom_ajax").html("Congratulations! Your spot is reserved");
+                        //    });
                        }
                    });
                 
