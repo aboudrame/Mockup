@@ -154,7 +154,7 @@ $(function () {
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
                 
-
+                alert('test');
                if ( $(el).attr('checked') ) {
                    $('.custom-alert').slideUp(3000);
                    alert(1);
