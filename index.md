@@ -149,9 +149,11 @@ $(function () {
         },
 
         bluebtn: function () {
+            $('.alert').hide();
+            
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
-                $('.alert').hide();
+                
 
                if ( $(el).attr('checked') ) {
                    $('.alert').slideUp(3000);
