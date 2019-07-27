@@ -165,8 +165,8 @@ $(function () {
                        method: "GET",
                        dataType: "json",
                        success: function (result) {
-                          // $(".custom_ajax").html(result.body.submitok);
-                          $(".custom_ajax").html("Congratulations! Your spot is reserved");
+                           $(".custom_ajax").html(result.body.submitok);
+                          //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                        }
                    });
                 
