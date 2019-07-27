@@ -156,11 +156,11 @@ $(function () {
                 
                 
                if ( $(el).attr('checked') ) {
-                  // $('.custom-alert').slideUp(3000);
+                   $('.custom-alert').slideUp(3000);
                    alert(1);
                }
                else {
-                   //$('.custom-alert').slideDown(3000);
+                   $('.custom-alert').slideDown(3000);
                    alert(2);
                }
             });
