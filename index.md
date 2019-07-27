@@ -166,7 +166,14 @@ $(function () {
                        dataType: "json",
                        success: function (result) {
                            $.each(result, function (key, value) {
-                                        $(".custom_ajax").append(key);
+
+                                        if (key == "body") {
+                                            for (i in value) {
+                                                 $(".custom_ajax").append(i.submitok);
+                                            }
+                                        }
+                                       
+
                                         //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                            });
                        }
