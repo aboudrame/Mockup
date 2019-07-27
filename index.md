@@ -169,7 +169,7 @@ $(function () {
 
                                         if (key == "body") {
                                             for (i in value) {
-                                                alert(i ' = ' value);
+                                                alert(i + ' = ' + value);
                                                  //$(".custom_ajax").append(i.submitok);
                                             }
                                         }
