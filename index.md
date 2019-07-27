@@ -167,7 +167,7 @@ $(function () {
                        success: function (result) {
                            $.each(result, function (key, value) {
                               if (key === "body") {
-                                 $.each(this.value, function (key2, value2) {
+                                 $.each(key.value, function (key2, value2) {
                                         $(".custom_ajax").append(key2 + ' = ' + value2);
                                         //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                                  });
