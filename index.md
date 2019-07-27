@@ -161,7 +161,7 @@ $(function () {
                    $.ajax({
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        success: function (result) {
-                           $('custom_ajax').html(result);
+                           $('.custom_ajax').html(result);
                        }
                    });
                 
