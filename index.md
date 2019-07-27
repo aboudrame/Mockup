@@ -157,9 +157,11 @@ $(function () {
 
                if ( $(el).attr('checked') ) {
                    $('.alert').slideUp(3000);
+                   alert('1')
                }
                else {
                    $('.alert').slideDown(3000);
+                   alert(2);
                }
             });
         }
