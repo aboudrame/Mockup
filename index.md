@@ -161,10 +161,11 @@ $(function () {
 
                    $.ajax({
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
-                       type: 'GET',
+                       type: "GET",
                        dataType: "json",
                        success: function (result) {
-                           $(".custom_ajax").html(result[0].body.submitok);
+                          // $(".custom_ajax").html(result[0].body.submitok);
+                          $(".custom_ajax").html("Congratulations! Your spot is reserved");
                        }
                    });
                 
