@@ -210,7 +210,7 @@ as Much as <span class="Text-Light-Blue"> $101,000 in Profit</span>.”
     <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
     <div class="custom_alert" style="color: red;">Please check to receive a free newsletter BEFORE registering</div>
-    <div class="custom_ajax"> </div>
+    <div class="custom_ajax" style="color: green; font-weight: bold;"> </div>
 </div>
 
 <div class="align-center Background-Medium-Blue Text-white Register marginLR20 Text-bold blue-button">
@@ -294,7 +294,7 @@ WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
     <div class="checkbox" style="display: inline-block"><input type="checkbox" name="sync" ></div>
     <div style="display: inline-block; Text-white">I would like to receive a free newsletter</div>
     <div class="custom_alert" style="color: red;">Please check to receive a free newsletter BEFORE registering!</div>
-    <div class="custom_ajax"> </div>
+    <div class="custom_ajax" style="color: green; font-weight: bold;"> </div>
  </div>
 
 <div class="align-center Background-Medium-Blue Text-white Yes-reserve-spot marginLR20 blue-button">
