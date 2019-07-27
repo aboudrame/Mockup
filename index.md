@@ -159,11 +159,11 @@ $(function () {
                    $('.custom_alert').hide(3000);
 
                    $.ajax({
-                       url: 'https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/',
+                       url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        type: 'GET',
-                       dataType: 'json',
+                       dataType: "json",
                        success: function (result) {
-                           $('.custom_ajax').html(result.body.submitok);
+                           $(".custom_ajax").html(result.body.submitok);
                        }
                    });
                 
