@@ -165,7 +165,7 @@ $(function () {
                        method: "GET",
                        dataType: "json",
                        success: function (result) {
-                            var d = $.parseJSON(result);
+                            var d = $.parseJSON(JSON.stringify(result));
                             alert (45);
 
                         //    $.each(result, function (key, value) {
