@@ -166,10 +166,12 @@ $(function () {
                        dataType: "json",
                        success: function (result) {
                            $.each(result, function (key, value) {
-                              // for (key2 in result[key]) {
-                           $(".custom_ajax").append("Test= " + key + ' = ' + value);
-                          //$(".custom_ajax").html("Congratulations! Your spot is reserved");
-                              // }
+                              if (key === "body") {
+                                 $.each(this.value, function (key2, value2) {
+                                        $(".custom_ajax").append(key2 + ' = ' + value2);
+                                        //$(".custom_ajax").html("Congratulations! Your spot is reserved");
+                                 });
+                              }
                            });
                        }
                    });
