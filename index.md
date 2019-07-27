@@ -160,6 +160,7 @@ $(function () {
 
                    $.ajax({
                        url: 'https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/',
+                       type: 'GET',
                        data: {
                            format: 'json'
                        },
