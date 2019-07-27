@@ -149,19 +149,19 @@ $(function () {
         },
 
         bluebtn: function () {
-            //$('.custom-alert').slideUp();
+            $('.custom-alert').hide();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
                 
                 
                if ( $(el).attr('checked') ) {
-                   $('.custom_alert').slideUp(3000);
-                   alert(1);
+                   $('.custom_alert').hide(3000);
+                
                }
                else {
-                   $('.custom_alert').slideDown(3000);
-                   alert(2);
+                   $('.custom_alert').show(3000);
+                   
                }
             });
         }
