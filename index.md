@@ -149,18 +149,18 @@ $(function () {
         },
 
         bluebtn: function () {
-            $('.custom-alert').slideUp();
+            //$('.custom-alert').slideUp();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
                 
-                alert('test');
+                
                if ( $(el).attr('checked') ) {
-                   $('.custom-alert').slideUp(3000);
+                  // $('.custom-alert').slideUp(3000);
                    alert(1);
                }
                else {
-                   $('.custom-alert').slideDown(3000);
+                   //$('.custom-alert').slideDown(3000);
                    alert(2);
                }
             });
