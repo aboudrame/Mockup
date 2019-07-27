@@ -149,7 +149,7 @@ $(function () {
         },
 
         bluebtn: function () {
-            $('.custom-alert').hide();
+            $('.custom_alert').hide();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
