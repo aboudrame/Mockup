@@ -163,8 +163,9 @@ $(function () {
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        type: "GET",
                        dataType: "json",
-                       success: function (result) {
+                       success: function () {
                           // $(".custom_ajax").html(result.body.submitok);
+                          alert("success");
                           $(".custom_ajax").html("Congratulations! Your spot is reserved");
                        }
                    });
