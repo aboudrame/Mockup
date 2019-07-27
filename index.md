@@ -96,6 +96,7 @@ $(function () {
         init: function () {
             mockup.sync();
             mockup.Webinarcountdown();
+            mockup.bluebtn();
         },
 
         sync: function () {
