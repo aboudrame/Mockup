@@ -149,8 +149,8 @@ $(function () {
         },
 
         bluebtn: function () {
-            $('.alert').hide();
-            
+            $('.alert').slideUp();
+
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
                 
