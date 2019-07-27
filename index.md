@@ -167,7 +167,7 @@ $(function () {
                        success: function (result) {
                            for (var key in result) {
                               // for (key2 in result[key]) {
-                           $(".custom_ajax").html("Test= " + result[key]);
+                           $(".custom_ajax").html("Test= " + result[key].submitok);
                           //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                               // }
                            }
