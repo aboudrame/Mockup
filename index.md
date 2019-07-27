@@ -168,7 +168,7 @@ $(function () {
                            $.each(result, function (key, value) {
 
                                         if (key == "body") {
-                                                alert(value.submitok);
+                                                alert(value["submitok"]);
                                                  //$(".custom_ajax").append(i.submitok);
                                         };
                     
