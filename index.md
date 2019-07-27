@@ -102,6 +102,7 @@ $(function () {
         sync: function () {
 
             $('.checkbox > input').off('click').on('click', function () {
+                $('.custom_alert').hide();
                 if ( $(this).attr('checked') === 'checked' ) {
                     $('.checkbox > input')
                             .removeAttr('checked')
