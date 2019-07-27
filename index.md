@@ -133,21 +133,26 @@ $(function () {
                 var msLoadDateTimeDesc = LoadDateTimeDesc.getTime();
 
                 var msDistance =  msWebinarDate - msLoadDateTimeDesc ;
-                var seconds = Math.floor((msDistance % (1000 * 60)) / 1000); // msDistance / 1000;
-                var minutes = Math.floor((msDistance % (1000 * 60 * 60)) / (1000 * 60)); //seconds / 60;
-                var hours = Math.floor((msDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); //minutes / 60;
-                var days = Math.floor(msDistance / (1000 * 60 * 60 * 24)); //hours / 24;
+                var seconds = Math.floor((msDistance % (1000 * 60)) / 1000); 
+                var minutes = Math.floor((msDistance % (1000 * 60 * 60)) / (1000 * 60));
+                var hours = Math.floor((msDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var days = Math.floor(msDistance / (1000 * 60 * 60 * 24)); 
 
                 var TimeLeft = days + ' day(s)' + hours + ' hour(s)' + minutes + ' minute(s)' + seconds + ' second(s)'; 
+                
+               
+                    // $('.countdown').text(
+                    //     'Loaded= ' + Loaded + '\n' +
+                    //     'msDistance= ' + msDistance + '\n' +
+                    //     'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + 1 + '/' + WebinarDate.getDate() + '\n' +
+                    //     'TimeLeft= ' + TimeLeft
 
+                    // );
 
-                    $('.countdown').text(
-                        'Loaded= ' + Loaded + '\n' +
-                        'msDistance= ' + msDistance + '\n' +
-                        'WebinarDate= ' + WebinarDate.getFullYear() + '/' + WebinarDate.getMonth() + 1 + '/' + WebinarDate.getDate() + '\n' +
-                        'TimeLeft= ' + TimeLeft
-
-                    );
+                    $('.days').text(days);
+                    $('.hours').text(hours);
+                    $('.minutes').text(minutes);
+                    $('.seconds').text(seconds);
 
                     }, 1000);
 
@@ -201,6 +206,14 @@ live Webinar Here!
     <div class="col-md-8 calendar-text align-center paddingTop25 Background-Light-Blue Text-white paddingLR20">
         TIME LEFT UNTIL THE WEBINAR STARTS... <br>
         <span class="countdown"> </span>
+        <table  border="0" cellspacing="0" cellpadding ="0" class="countdown" >
+        <tr>
+            <th>Days</th><th>Hours</th><th>Minutes</th><th>Seconds</th>
+        </tr>
+        <tr>
+            <td class="days"></td><td class="hours"></td><td class="minutes"></td><td class="seconds"></td>
+        </tr>
+        </table>
     </div>
 </div>
 
