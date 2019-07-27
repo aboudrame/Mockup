@@ -133,7 +133,12 @@ $(function () {
                 var msLoadDateTimeDesc = LoadDateTimeDesc.getTime();
 
                 var msDistance =  msWebinarDate - msLoadDateTimeDesc ;
-                var TimeLeft = new Date(msDistance);
+                var seconds = Math.floor((msDistance % (1000 * 60)) / 1000); // msDistance / 1000;
+                var minutes = Math.floor((msDistance % (1000 * 60 * 60)) / (1000 * 60)); //seconds / 60;
+                var hours = Math.floor((msDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); //minutes / 60;
+                var days = Math.floor(msDistance / (1000 * 60 * 60 * 24)); //hours / 24;
+
+                var TimeLeft = days + ' day(s)' + hours + ' hour(s)' + minutes + ' minute(s)' + seconds + ' second(s)'; 
 
 
                     $('.countdown').text(
