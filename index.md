@@ -166,7 +166,7 @@ $(function () {
                        dataType: "json",
                        success: function (result) {
                             var d = $.parseJSON(JSON.stringify(result));
-                            alert (45);
+                            alert (d.body.submitok);
 
                         //    $.each(result, function (key, value) {
 
