@@ -170,7 +170,7 @@ $(function () {
                            $(".custom_ajax").append("Test= " + key + ' = ' + value);
                           //$(".custom_ajax").html("Congratulations! Your spot is reserved");
                               // }
-                           }
+                           });
                        }
                    });
                 
