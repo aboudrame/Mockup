@@ -175,7 +175,9 @@ $(function () {
 
                            for (x in jsonparse) {
                                if (x == "submitok") {
-                                    $(".custom_ajax").html(jsonparse[x]);
+                                    $(".custom_ajax")
+                                        .html(jsonparse[x])
+                                        .show();
                                }
                            };
                        }
