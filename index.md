@@ -103,7 +103,7 @@ $(function () {
         sync: function () {
 
             $('.checkbox > input').off('click').on('click', function () {
-                //always hide these two on click
+                //always hide these two on clicks
                 $('.custom_alert').hide();  
                 $('.custom_ajax').hide(); 
 
@@ -154,9 +154,7 @@ $(function () {
         },
 
         bluebtn: function () {
-            //always hide these two boxex on click
             $('.custom_alert').hide();
-            $('.custom_ajax').hide();
 
             $('.blue-button').off('click').on('click', function () {
                var el = $(this).prev('div').find($('input'));
