@@ -160,15 +160,21 @@ $(function () {
                if ( $(el).attr('checked') ) {
                    $('.custom_alert').hide(3000);
 
-                   $.ajax({
+                  $.ajax({
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        method: "GET",
                        dataType: "json",
+                       async: true,
+                       crossDomain: true,
                        success: function (result) {
-                            // var d = $.parseJSON(JSON.stringify(result));
-                            // var x = $.parseJSON(JSON.stringify(d.body)); to be continue
-                            $(".custom_ajax").html("Congratulations! Your spot is reserved");
-                
+
+                           var jsonparse = JSON.parse(result.body);
+
+                           for (x in jsonparse) {
+                               if (x == "submitok") {
+                                    $(".custom_ajax").html(jsonparse[x]);
+                               }
+                           };
                        }
                    });
                 
