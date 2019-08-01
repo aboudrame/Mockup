@@ -20,18 +20,19 @@ body {
 .Text-bold {font-weight: bold;}
 .Text-white {color: #FFF;}
 .calendar-container {display: flex;}
-.calendar {margin-right: 10px}
-.calendar-text {width: 100%;}
+.calendar-text {width: 100%; border-left: solid 10px #FFF;}
+.claim-spot {padding: 0;}
 .paddingTop25 {padding-top: 25px;}
 .calendar img {width: 100%; max-width: 80px}
 .padding25-40-40-40 {padding: 25px 40px 40px 40px }
-.profile-container { display: flex; margin-top: 20px;}
+.profile-container { display: flex; margin-top: 20px; margin-left: 0; margin-right: 0;}
 .profile-container div {width: 50%; padding-top: 20px;}
 .Open-questions {background-color: #E8E8E8; color: #000; padding: 20px;}
 .Open-questions .cbox {width: 35px; display: inline-block;}
 .Open-questions .questions {display: inline-block; width: calc(100% - 70px)}
 .warning, .claim {padding: 10px; margin: 0}
 .warning {margin-top: 10px;}
+.warning p {margin-bottom: 0;}
 .warning img {width: 30px; background-color: initial; }
 .cbox, .cbox img {background-color: #E8E8E8;}
 
@@ -44,19 +45,19 @@ body {
      margin: 0;
  }
 
+ .calendar-text {border-left: 0;}
+
+ div table.countdown th,
+ div table.countdown td {padding-left: 5px; padding-right: 5px; }
+ 
  .paddingLR20 {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
  }
 
-.marginLR20 {
-    margin-left: 20px;
-    margin-right: 20px; 
-}
-
  .Register {
-    max-width: initial;
+    max-width: calc(100% - 30px);
  }
 
 .profile-container {

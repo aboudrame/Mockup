@@ -9,9 +9,9 @@ $(function () {
         sync: function () {
 
             $('.checkbox > input').off('click').on('click', function () {
-                //always hide these two on clicks
-                $('.custom_alert').hide(3000);  
-                $('.custom_ajax').hide(3000); 
+                //Always hide these 2 on clicks
+                $('.custom_alert').hide(3000);
+                $('.custom_ajax').hide(3000);
 
                 if ( $(this).attr('checked') === 'checked' ) {
                     $('.checkbox > input')
@@ -37,6 +37,14 @@ $(function () {
             );
 
             var msWebinarDate = new Date(WebinarDate);
+            var webinarDAY = msWebinarDate.getMonth() + "/" + 
+                              msWebinarDate.getDate()  + "/" +
+                              msWebinarDate.getFullYear();
+            var webinarTime = ("0" + msWebinarDate.getHours()).slice(-2) + ":" +
+                              ("0" + msWebinarDate.getMinutes()).slice(-2) + ":" +
+                              ("0" + msWebinarDate.getSeconds()).slice(-2)
+
+            $('.webinar-date').html( webinarDAY + ' at ' + webinarTime);
             
             //Refresh the current time every second and extract days, hours, minutes and seconds
             setInterval (function () {
@@ -69,7 +77,7 @@ $(function () {
                if ( $(el).attr('checked') ) {
                    $('.custom_alert').hide(3000);
 
-                  $.ajax({
+                   $.ajax({
                        url: "https://bl45immth4.execute-api.us-east-1.amazonaws.com/production/",
                        method: "GET",
                        dataType: "json",
